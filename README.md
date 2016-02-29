@@ -1,2 +1,2 @@
-# pogodi-pjesmu
+# Pogodi pjesmu
 kviz pogađanja pjesme ili izvođača...

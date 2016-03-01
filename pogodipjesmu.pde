@@ -104,7 +104,7 @@ void draw(){
     fill(#382FC1); 
     textSize(20);
     text(" Igraj ponovo", 120, 325);
-    if(mousePressed == true & mouseX>100 & mouseX<250 & mouseY>300 & mouseY<340) setup();
+    break;
   }   
 }
 
@@ -203,7 +203,11 @@ void mousePressed(){
         indeks++;         
       }     
       if(indeks == 5) status = kraj;
-      break;     
+      break;
+      
+    case kraj:
+      if(mousePressed == true & mouseX>100 & mouseX<250 & mouseY>300 & mouseY<340) setup();
+      break;
   }   
 }
 

@@ -19,7 +19,7 @@ Ispisuju se osvojeni bodovi i pravokutnik s mogučnošću "Igraj ponovo".
 
 #void mousePressed()
 Prvi put kad je stisnuta tipka miša pokreće poziva se millis() pomoću koje znamo ukupno vrijeme igranja što utječe na bodove.
-Ovisno o mjestu gdje smo kliknuli dobivaju se bodovi ako se kliknulo na točan odgovor. Nakon klika na jedan od ponuđenih odgovora zazeleni se točan odgovor. Ukoliko se klikne na mjesto izvan pravokutnika ne događa se ništa. Ukoliko se klikne unutar pravokutnika s "Pusti ponovo" pjesma se pušta još jednom.
+Ovisno o mjestu gdje smo kliknuli dobivaju se bodovi ako se kliknulo na točan odgovor. Nakon klika na jedan od ponuđenih odgovora zazeleni se točan odgovor. Ukoliko se klikne na mjesto izvan pravokutnika ne događa se ništa. Ukoliko se klikne unutar pravokutnika s "Pusti ponovo" pjesma se pušta još jednom (ovo trenutno ne radi!).
 Ovisno o varijabli status preskače se na iduće pitanje.
 
 #void generiraj_odgovore(int i)
